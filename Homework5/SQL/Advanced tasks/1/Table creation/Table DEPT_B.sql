@@ -1,0 +1,5 @@
+CREATE TABLE DEPT_B (
+  DEPTID int(11) NOT NULL,
+  DEPTNAME varchar(45),
+  PRIMARY KEY (`DEPTID`)
+);

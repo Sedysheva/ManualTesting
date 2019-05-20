@@ -1,0 +1,10 @@
+CREATE TABLE EMP_A (
+  EMPID int(11),
+  EMPNAME varchar(45),
+  MGRID int(11),
+  DEPTID int(11),
+  SALARY int(11),
+  DOB datetime,
+  PRIMARY KEY (EMPID),
+  UNIQUE KEY EMPID_UNIQUE (EMPID)
+) 

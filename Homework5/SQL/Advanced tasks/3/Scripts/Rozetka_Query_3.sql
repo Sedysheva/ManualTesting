@@ -1,0 +1,5 @@
+select EMPNAME, DOB, DEPTNAME
+from EMP_A, DEPT_B
+where EMP_A.DEPTID=DEPT_B.DEPTID and DEPTNAME='QA'
+order by EMPNAME ASC;
+
